@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Number;
 
 class IndexController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,12 +17,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $number=[];
-        for($i=0;$i<2000;$i++){
-
-            array_push($number,"+2547".rand(00000000,99999999));
-        }
-        return response($number);
+        
+        return response(json_encode(Number::all()));
     }
 
     /**

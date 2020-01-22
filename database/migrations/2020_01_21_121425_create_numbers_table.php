@@ -16,7 +16,7 @@ class CreateNumbersTable extends Migration
         Schema::create('numbers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('number');
-            $table->boolean('status');
+            $table->boolean('status')->default(0);
             $table->timestamps();
         });
     }
