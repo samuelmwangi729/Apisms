@@ -18,7 +18,8 @@ class NumberSeeder extends Seeder
         }
         for($i=0;$i<count($number);$i++){
             Number::create([
-                'number'=>$number[$i]
+              'number'=>$number[$i],
+              'status'=>'1'
             ]);
         }
     }

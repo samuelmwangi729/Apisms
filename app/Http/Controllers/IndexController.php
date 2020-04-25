@@ -8,7 +8,7 @@ use App\Number;
 class IndexController extends Controller
 {
     public function __construct(){
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
     /**
      * Display a listing of the resource.
@@ -17,8 +17,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        
-        return response(json_encode(Number::all()));
+
+        return view('welcome');
     }
 
     /**
