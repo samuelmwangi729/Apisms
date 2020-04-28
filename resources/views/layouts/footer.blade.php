@@ -5,15 +5,20 @@
 
           <div class="col-lg-4 col-md-6 footer-info">
             <h6 style="font-weight:bold;">{{ config('app.name') }}</h6>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <p>
+                SmartSoft International is an established Software and security company based in Kenya. The sole mandate of the company is to
+                provide custom Software and security measures to help in smooth running of any bussiness. We utilise cutting-edge technology,
+                extensive knowledge  and experience for you to avoid security breaches and interuptions that may cause you money or lead to any
+                loss to the business.
+            </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#services">Services</a></li>
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
@@ -22,11 +27,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +254 (0) 704 922 042<br>
+              <strong>Email:</strong> info@smartsoftinternational.com<br>
             </p>
 
             <div class="social-links">
@@ -41,7 +43,7 @@
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <p>Submit your email to receive timely updates from us</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -53,7 +55,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+        &copy; <?php echo date('Y');?> <strong>{{ config('app.name') }}</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -62,7 +64,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="{{ url('') }}">{{ config('app.name') }}</a>
       </div>
     </div>
   </footer>

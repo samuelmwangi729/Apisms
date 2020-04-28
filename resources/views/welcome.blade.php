@@ -513,46 +513,41 @@
 
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
+                <h3>Samuel Mwangi</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <blockquote>
+                    Whatever you do, always remember that 'right and wrong' is more important than 'profits and losses'
+                  </blockquote>
                 </p>
               </div>
 
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Pentellis P.</h3>
+                <h4>Software Engineer</h4>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    Excellent company with Good results. Will Surely work with them in the future
                 </p>
               </div>
 
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Mohammud Himanshu</h3>
+                <h4>Freelancer </h4>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                 {{ config('app.name') }} is a company with very talented Individuals.
+                  I will surely work with them in the future. It was an amazing experience.
                 </p>
               </div>
 
               <div class="testimonial-item">
-                <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonial-4.png" class="testimonial-img" alt="">
+                <h3>VirtualSchool</h3>
+                <h4>Business</h4>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                 With the clean and User friendly website they provided to me, I can confirm that the company can provide exactly what the customer
+                 expected and also have the capability of exceeding the customers expectation. Kudos Team!!
                 </p>
               </div>
 
@@ -568,7 +563,7 @@
     <section id="team">
       <div class="container">
         <div class="section-header">
-          <h3>Team</h3>
+          <h3>Our Team</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
@@ -576,16 +571,16 @@
 
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/testimonial-1.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
+                  <h4>Samuel Mwangi</h4>
                   <span>Chief Executive Officer</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https:twitter.com"><i class="fa fa-twitter"></i></a>
+                    {{-- <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a> --}}
+                    <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -651,71 +646,7 @@
       </div>
     </section><!-- End Team Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="section-bg">
 
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Clients Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact">
@@ -735,17 +666,17 @@
 
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-md-5 info">
+              {{-- <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
-              </div>
-              <div class="col-md-4 info">
+                <p></p>
+              </div> --}}
+              <div class="col-md-6 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>info@smartsoftinternational.com</p>
               </div>
-              <div class="col-md-3 info">
+              <div class="col-md-6 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>+254 (0) 704 922 042</p>
               </div>
             </div>
 
