@@ -17,7 +17,5 @@ Route::get('/',
     'as'=>'index.home'
 ]
 );
-
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/lUXpoba1Xm7k5J612UwjzOkFevdSeeWJqPjeKHnfIgOJRUl7jPKhK', 'IndexController@contact')->name('lUXpoba1Xm7k5J612UwjzOkFevdSeeWJqPjeKHnfIgOJRUl7jPKhK');

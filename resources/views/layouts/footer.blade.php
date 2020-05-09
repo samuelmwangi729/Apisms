@@ -19,8 +19,6 @@
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About us</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
@@ -44,8 +42,9 @@
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Submit your email to receive timely updates from us</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="{{route('lUXpoba1Xm7k5J612UwjzOkFevdSeeWJqPjeKHnfIgOJRUl7jPKhK')}}" method="post">
+              @csrf
+              <input type="email" name="Email"><input type="submit" value="Subscribe">
             </form>
           </div>
 
@@ -58,12 +57,6 @@
         &copy; <?php echo date('Y');?> <strong>{{ config('app.name') }}</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
-      -->
         Designed by <a href="{{ url('') }}">{{ config('app.name') }}</a>
       </div>
     </div>

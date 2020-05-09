@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Contact;
 use Illuminate\Http\Request;
 use App\Number;
+use Session;
 
 class IndexController extends Controller
 {
@@ -85,5 +86,12 @@ class IndexController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function contact(Request $request){
+        Contact::create([
+            'Email'=>$request->Email
+        ]);
+        Session::flash('success','You have Successfully SUbscribed');
+        return back();
     }
 }
